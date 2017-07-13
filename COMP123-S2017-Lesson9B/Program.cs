@@ -15,9 +15,10 @@ namespace COMP123_S2017_Lesson9B
     {
         static void Main(string[] args)
         {
-            SuperHuman superhuman = new SuperHuman("Super Dude");
-            superhuman.Powers.Add(new Power("Teleportation", 50));
-            superhuman.DisplayPowers();
+            SuperHuman superHuman = new SuperHuman("Super Dude");
+            superHuman.AddPower("Spider Climbing", 50);
+            superHuman.AddPower("Webcasting", 40);
+            Console.WriteLine(superHuman.ToString());
         }
     }
 }

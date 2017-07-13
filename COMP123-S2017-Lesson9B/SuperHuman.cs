@@ -44,11 +44,12 @@ namespace COMP123_S2017_Lesson9B
         }
         // PUBLIC METHODS
         /// <summary>
-        /// This method adds a power to SuperHumans Class
+        /// This method adds a power to the Power List.
+        /// It takes two parameters - name (string) - rank (int)
         /// </summary>
         /// <param name="name"></param>
         /// <param name="rank"></param>
-        public void AdPower(string name, int rank)
+        public void AddPower(string name, int rank)
         {
             this.Powers.Add(new Power(name, rank));
         }
@@ -67,14 +68,15 @@ namespace COMP123_S2017_Lesson9B
         /// <returns></returns>
         public override string ToString()
         {
-            string outputString = "----------------------------------------------------------";
+            string outputString = "";
+            outputString += "===========================================================\n";
             outputString += "Super Human Name:" + this.Name + "\n";
-            outputString = "-----------------------------------------------------------------";
+            outputString += "===========================================================\n";
             foreach (Power power in this.Powers)
             {
                 outputString += "Power:" + power.Name + "Rank:" + power.Rank + "\n";
             }
-            outputString = "-----------------------------------------------------------------";
+            outputString += "===========================================================\n";
             return outputString;
         }
         /// <summary>

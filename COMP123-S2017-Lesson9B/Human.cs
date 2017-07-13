@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 /*
  * Name- Simar Gill
  * Date- July13,2017
- * Description-This is the abstract class human which other subclasses will derive from
- * Version- 0.1-Class created
+ * Description-This is the abstract human class 
+ * Version- 0.2- Added Abstract method DisplaySkills
  */
 namespace COMP123_S2017_Lesson9B
 {
