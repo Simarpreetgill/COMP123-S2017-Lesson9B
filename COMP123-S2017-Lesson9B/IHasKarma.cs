@@ -11,10 +11,10 @@ using System.Threading.Tasks;
  */
 namespace COMP123_S2017_Lesson9B
 {
-    class Interface IHasKarma
+
+    public interface IHasKarma
     {
-       
         // PUBLIC PROPERTIES
-          int karma { get; set; }
-}
+        int Karma { get; set; }
+    }
 }
