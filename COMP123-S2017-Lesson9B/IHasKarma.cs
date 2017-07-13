@@ -15,6 +15,6 @@ namespace COMP123_S2017_Lesson9B
     {
        
         // PUBLIC PROPERTIES
-          int Karma { get; set; }
-    }
+          int karma { get; set; }
+}
 }
