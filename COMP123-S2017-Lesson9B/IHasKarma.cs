@@ -11,7 +11,9 @@ using System.Threading.Tasks;
  */
 namespace COMP123_S2017_Lesson9B
 {
-
+    /// <summary>
+    /// This is the IHasKarma Interface
+    /// </summary>
     public interface IHasKarma
     {
         // PUBLIC PROPERTIES

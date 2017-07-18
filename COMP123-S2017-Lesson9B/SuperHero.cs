@@ -33,14 +33,14 @@ namespace COMP123_S2017_Lesson9B
             }
         }
 
+
         // CONSTRUCTORS
 
         /// <summary>
         /// This is the main constructor for the SuperHero class
-        /// It takes two arguments - name (string) - karma (int)
+        /// It takes one argument - name (string)
         /// </summary>
         /// <param name="name"></param>
-        /// <param name="karma"></param>
         public SuperHero(string name, int karma)
             : base(name)
         {

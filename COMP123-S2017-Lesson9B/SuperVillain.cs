@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  * Version: 0.1 - Created SuperVillain class
  */
 
-namespace COMP123_S2017_Lesson9A
+namespace COMP123_S2017_Lesson9B
 {
     /// <summary>
     /// This is the SuperVillain Class

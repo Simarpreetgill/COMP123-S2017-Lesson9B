@@ -12,16 +12,24 @@ using System.Threading.Tasks;
  */
 namespace COMP123_S2017_Lesson9B
 {
+
     /// <summary>
-    /// Power class contains the data and structure of th each Super Power.
+    /// The Power class contains the data and structure of the each Super Power.
     /// </summary>
     public class Power
     {
-        //PUBLIC PROPERTIES
+        // PUBLIC PROPERTIES
         public string Name { get; set; }
         public int Rank { get; set; }
 
-        //CONSTRUCTORS
+        // CONSTRUCTORS -----------------------------------------
+
+        /// <summary>
+        /// This is the Power construtor.
+        /// Takes two parameters - name (string) - rank (int)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
         public Power(string name, int rank)
         {
             this.Name = name;

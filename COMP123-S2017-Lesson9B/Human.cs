@@ -12,37 +12,41 @@ using System.Threading.Tasks;
 namespace COMP123_S2017_Lesson9B
 {
     /// <summary>
-    /// This is the human abstract class
+    /// This is the Human Abstract class
     /// </summary>
     public abstract class Human
     {
-        //PRIVATE FIELDS(INSTANCE VARIABLES)
+        // PRIVATE FIELDS (INSTANCE VARIABLES)
         private string _name;
-        // PUBLIC PROPERTIES----------------------------------------
+
+        // PUBLIC PROPERTIES -----------------------------------------
         public string Name
         {
             get
             {
                 return this._name;
             }
+
             set
             {
                 this._name = value;
             }
         }
-        //CONSTRUCTORS-----------------------------------------------
+
+        // CONSTRUCTORS -----------------------------------------------
+
         /// <summary>
-        /// This is the constructor for the abstract class
-        /// It requires one parameter - name
+        /// This is the constructor for the Human abstract class.
+        /// It requires one parameter - name (string).
         /// </summary>
         /// <param name="name"></param>
         public Human(string name)
         {
             this.Name = name;
         }
-        // PRIVATE METHODS
 
-        //PUBLIC METHODS
+        // PUBLIC ABSTRACT METHODS
+
         public abstract void DisplaySkills();
     }
 }

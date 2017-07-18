@@ -8,7 +8,6 @@ namespace COMP123_S2017_Lesson9B
 {
     public interface IHasMalice
     {
-        // PUBLIC PROPERTIES
-        int  Malice { get;set; }
+        int Malice { get; set; }
     }
 }
