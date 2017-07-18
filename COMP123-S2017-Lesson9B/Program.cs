@@ -19,6 +19,15 @@ namespace COMP123_S2017_Lesson9B
             superHuman.AddPower("Spider Climbing", 50);
             superHuman.AddPower("Webcasting", 40);
             Console.WriteLine(superHuman.ToString());
+            Console.WriteLine("Karma: " + superHero.Karma);
+            Console.WriteLine();
+
+            SuperVillan superVillain = new SuperVillan("SuperVillain Dude", 20);
+            superVillain.AddPower("Shadow Casting", 50);
+            superVillain.AddPower("Mind Control", 40);
+            superVillain.AddPower("Combat Senses", 30);
+            Console.WriteLine(superVillain.ToString());
+            Console.WriteLine("Malice: " + superVillain.Malice);
         }
     }
 }
